@@ -29,8 +29,7 @@ int yLimitSpeed = 13;
 int xSpeed = 8;
 int SpikeL[MaxSpices+2], SpikeR[MaxSpices+2];
 
-bool init()
-{
+bool init() {
 	if(SDL_Init(SDL_INIT_EVERYTHING) < 0)
 	{
 		printf( "ERROR!!!\n");
